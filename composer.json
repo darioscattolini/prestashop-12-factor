@@ -3,7 +3,7 @@
 		"gskema/prestashop-installer": "~2.0"
 	},
 	"scripts": {
-		"prestashop-setup-core": "prestashop new shop1 --release=1.7.1.0 --fixture=starwars",
+		"prestashop-setup-core": "prestashop new shop1 --release=1.7.6.5",
 		"prestashop-db-core": "php ./shop1/install/index_cli.php",
 		"prestashop-setup-clean": "mv ./shop1/install archived",
 		"prestashop-setup-welcome": [

@@ -1,9 +1,10 @@
 {
 	"require": {
-		"gskema/prestashop-installer": "~2.0"
+		"gskema/prestashop-installer": "~2.0",
+		"php": "~7.2.0"
 	},
 	"scripts": {
-		"prestashop-setup-core": "prestashop new shop1 --release=1.7.6.5",
+		"prestashop-setup-core": "prestashop new shop1 --release=1.7.6.9",
 		"prestashop-db-core": "php ./shop1/install/index_cli.php",
 		"prestashop-setup-clean": "mv ./shop1/install archived",
 		"prestashop-setup-welcome": [
